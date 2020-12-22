@@ -1,0 +1,25 @@
+
+.heading {
+    padding: 10px;
+    background-color: rgb(14, 11, 11);
+    text-align: center;
+    color: rgb(255, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.rotate {
+    height: 3rem;
+
+    animation: rotation 4s infinite linear;
+}
+  
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+}

@@ -1,0 +1,9 @@
+<!-- <p>game-card works!</p> -->
+<div class="card" (click)="cardClicked.emit()" [@cardFlip]="data.state">
+    <div class="back">
+        <img src="assets/card-back.jpg">
+    </div>
+    <div class="front">
+        <img [src]="'https://source.unsplash.com/' + data.imageId + '/2000x2200'">
+    </div>
+</div>
